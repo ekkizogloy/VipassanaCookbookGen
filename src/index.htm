@@ -1,0 +1,54 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+  <head>
+    <title>Vipassana Cookbook Generator v0.1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  </head>
+
+  <body>
+    <h1>Vipassana Cookbook Generator v0.1</h1>
+
+    <form method="post" action="/cgi-bin/TBD" enctype="multipart/form-data" name="form">
+      Configuration File: <input type="file" name="cfgfile"  size="40" maxlength="160" />
+      <input type="button" value="Load" onClick="" />
+      <input type="button" value="Save" onClick="" />
+      <br/>
+      Inventory File: <input type="file" name="invfile"  size="40" maxlength="160" />
+      <input type="button" value="Load" onClick="" />
+      <br/>
+      Recipe Directory: <input type="text" name="browse" size="40" maxlength="160" />
+      <input type="button" value="..." onClick="" />
+      <input type="button" value="Reload" onClick="" />
+      <br/>
+      <br/>
+      <br/>
+
+      Course Title: <input type="text" name="course_title" size="40" maxlength="160" /> <br />
+      Number of Students: <input type="number" min="1" /> <br />
+      Course Type:
+      <select name="course_type">
+        <option value="10-Day">10-Day</option>
+        <option value="3-Day">3-Day</option>
+        <option value="Sutta">Sutta</option>
+        <option value="other">other</option>
+      </select><br />
+
+      Course Start: <input type="date" name="course_start" /> <br />
+      Menu Type:
+      <select name="menu_type">
+        <option value="Summer">Summer</option>
+        <option value="Winter">Winter</option>
+        <option value="Any">Any</option>
+      </select><br />
+
+      <hr />
+      <input type="submit" name=".submit" value="Upload" />
+      <hr />
+
+    </form>
+  </body>
+</html>
+
