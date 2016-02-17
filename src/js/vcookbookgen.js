@@ -20,17 +20,19 @@
 
   // Retrieve all recipes at a directory
   // find all JSON files and then check if they are recipes.
-  get_avail_recipes_json: function (directory) {
-    return 0;
-  }
+  //get_avail_recipes_json: function (directory) {
+  //  return 0;
+  //};
 
-  // Read a single recipe file in JSON format into a datastructure
+  // Reads a recipe JSON file
   read_recipe_json: function(json_file) {
     console.log("read_recipe_json("+json_file+")");
 
     var rec = $.getJSON(json_file, function(data) {
+      var str = JSON.stringify(data, undefined, 2);
       console.log("success");
-      console.log("Data:"+data.menu.id);
+      console.log("Data:\n");
+      console.log(str);
     })
       .done(function() {
         console.log("second success ... done");

@@ -2,6 +2,7 @@
   "filetype" : "recipe",
   "version" : 0.1,
   "name" : "Recipe Name",
+  "id" : 10923810,
   "menu_type" : "summer",
   "course_types" : [ "10-day", "3-day", "sutta" ],
   "contains_warn" : [ "gluten", "soy", "dairy", "eggs", "nuts" ],

@@ -1,0 +1,50 @@
+{
+  "filetype" : "configuration",
+  "version" : 0.1
+  "name" : "default configuration",
+  "id" : 1231,
+
+  "recipe_directory" : "recipes/",
+  "inventory_file" : "current_inventory.json",
+  "course_title" : "10-Day Course",
+  "course_type" : "10-Day",
+  "course_start" : "01/01/2016",
+  "course_duration_days" : 11
+  "add_day0" : true,
+  "menu_type" : "summer",
+  "number_students" : 140,
+
+  "recipe_cfg" : [
+    { "name" : "Recipe1 Name",
+      "id" : 123221,
+      "filename" : "recipe1.json",
+      "days_selected" : [ 0,1,2,3,7,10 ],
+    },
+    { "name" : "Recipe2 Name",
+      "id" : 123221,
+      "filename" : "recipe2.json",
+      "days_selected" : [ 2,5,8,9 ],
+    }
+  ],
+
+  "instruction_cfg" : [
+    { "name" : "Instruction Day 0",
+      "id" : 10,
+      "filename" : "day0_instruction.json",
+      "days_selected" : [ 0 ],
+    },
+    { "name" : "Special Instruction Day 1",
+      "id" : 123,
+      "filename" : "special_instruction1.json",
+      "days_selected" : [ 1 ],
+    },
+    { "name" : "Vipassana Day",
+      "id" : 21,
+      "filename" : "vipassana_day.json",
+      "days_selected" : [ 4 ],
+    }
+  ]
+}
+
+
+
