@@ -18,6 +18,12 @@
 
 ;VCBG = {
 
+  // Retrieve all recipes at a directory
+  // find all JSON files and then check if they are recipes.
+  get_avail_recipes_json: function (directory) {
+    return 0;
+  }
+
   // Read a single recipe file in JSON format into a datastructure
   read_recipe_json: function(json_file) {
     console.log("read_recipe_json("+json_file+")");
@@ -41,6 +47,10 @@
 
       return 0;
   }
+
+
+
+
 }
 
 $(document).ready(function() {

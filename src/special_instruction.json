@@ -1,0 +1,23 @@
+{
+  "filetype" : "special instruction",
+  "version" : 0.1,
+  "name" : "First day special instruction",
+  
+  "things_to_remember" : [
+    "special notes",
+    "other things to remember for this"
+  ],
+
+  "timeline" : [
+    { "time" : "6:30am",
+      "notes" : [
+        "special things to do for this day"
+      ]
+    },
+    { "time" : "9:30am",
+      "notes" : [
+        "more special things to do for this day"
+      ]
+    }
+  ]
+}
