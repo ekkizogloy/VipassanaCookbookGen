@@ -1,0 +1,51 @@
+Vipassana Cookbook Generator and Inventory System.
+System requirements document.
+
+
+  * To create an maintain a database of recipes for use by a Vipassana Center.
+    + The recipes are in a standard format including:
+      - Ingredients & Quantities
+      - General instructions & Notes
+      - Cooking instructions
+      - Timeline for prep, cooking and serving
+      - Ingredient callouts for allergies or other (soy, gluten, dairy, nuts, etc.)
+        (could potentially be linked to ingredients too...)
+
+    + The recipes are editable in a manner that changing one recipe is easy and
+      can be done as feedback is received. 
+    + It is easy to add a new recipe.
+    + Recipes can be flagged as only usable for a particular course type or
+      other filterable flag to make it easy for choosing recipes.
+    + Recipes can potentially be shared with other centers
+
+
+
+  * To enable the Kitchen Coordinator to:
+    + Select recipes for each day of a given course
+    + Set the number of students attending the course
+    + Choose course duration and type (10-day,3-day,sutta,long course, etc.)
+    + Choose menu type (summer, winter) to filter recipes for ingredient availability.
+    + Edit recipes
+
+    + Customize the course cookbook instructions with special instructions that
+      are generalized in nature, may be specific to the center or may relate to
+      tasks that are special. These instructions can be selected to be added to
+      a particular day. (e.g. clean the refrigerator on day 5, or shippment of
+      food arriving on day 3 make space in walkin.)
+
+    + Generate a report for ingredient requirements for a given course with a
+      given number of students.
+
+    + Check against an existing inventory of ingredients to:
+      - Point out potential shortages
+      - Help plan alternate recipes to make use of extra ingredients
+      - Plan food orders and estimate costs
+
+    + Print documents
+      - Cookbook with instructions, ingredients, notes, timeline etc. 
+      - Summary menu (simple page outlining menu for entire course)
+      - Dining room menus (menus for students to see)
+      - Inventory reports & tracking.
+
+
+
